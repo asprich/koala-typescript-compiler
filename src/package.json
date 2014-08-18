@@ -1,0 +1,29 @@
+﻿{
+	"name": "typeScript",
+	"display": "TypeScript",
+	"version": "1.0.1",
+	"koalaVersion": ">=2.0.0",
+	"main": "TypeScriptCompiler.js",
+	"fileTypes": [{
+		"extension": "ts", 
+		"output": "js",
+		"icon": "typescript-icon.png",
+		"category": "script"
+	}],
+	"options": [
+		{
+			"type": "checkbox",
+			"name": "sourceMap",
+			"display": "Source Map",
+			"default": false
+		},
+		{
+			"type": "checkbox",
+			"name": "removeComments",
+			"display": "Remove Comments",
+			"default": false
+		}
+	],
+	"advanced": [],
+	"projectSettings": ""
+}
